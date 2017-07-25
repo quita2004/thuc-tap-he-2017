@@ -1,0 +1,102 @@
+/*
+Error: Invalid CSS after "...        float: ": expected expression (e.g. 1px, bold), was "$$left;"
+        on line 123 of C:/xampp/htdocs/html/market_html_v1.4-clone/html_width_RTL/sass/theme/_blog.scss
+        from line 40 of C:\xampp\htdocs\html\market_html_v1.4-clone\html_width_RTL\sass\home7.scss
+
+118:                         color: #888;
+119:                     }
+120:                     .blog-meta1{
+121:                         padding-top: 20px;
+122:                         .comment_count1{
+123:                             float: $$left;
+124:                             a{
+125:                                 color: #444444;
+126:                                 i{
+127:                                     padding-#{$right}: 3px;
+128:                                 }
+
+Backtrace:
+C:/xampp/htdocs/html/market_html_v1.4-clone/html_width_RTL/sass/theme/_blog.scss:123
+C:\xampp\htdocs\html\market_html_v1.4-clone\html_width_RTL\sass\home7.scss:40
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/script/lexer.rb:229:in `expected!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/script/parser.rb:710:in `assert_expr'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/script/parser.rb:75:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1063:in `sass_script'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:909:in `value!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:778:in `block in try_declaration'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1183:in `rethrow'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:791:in `try_declaration'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/engine.rb:312:in `to_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+C:/Ruby23/bin/sass:22:in `load'
+C:/Ruby23/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...        float: \": expected expression (e.g. 1px, bold), was \"$$left;\"\A         on line 123 of C:/xampp/htdocs/html/market_html_v1.4-clone/html_width_RTL/sass/theme/_blog.scss\A         from line 40 of C:\xampp\htdocs\html\market_html_v1.4-clone\html_width_RTL\sass\home7.scss\A \A 118:                         color: #888;\A 119:                     }\A 120:                     .blog-meta1{\A 121:                         padding-top: 20px;\A 122:                         .comment_count1{\A 123:                             float: $$left;\A 124:                             a{\A 125:                                 color: #444444;\A 126:                                 i{\A 127:                                     padding-#{$right}: 3px;\A 128:                                 }"; }

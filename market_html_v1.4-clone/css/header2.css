@@ -84,7 +84,7 @@ BLOCK HEADER
       position: relative; }
       .header-top .header-top-left .currencies-block:after {
         content: "";
-        height: 16px;
+        height: 13px;
         width: 1px;
         background: #cccccc;
         position: absolute;
@@ -109,7 +109,7 @@ BLOCK HEADER
         position: relative; }
         .header-top .header-top-right #TabBlock-1 li:after {
           content: "";
-          height: 16px;
+          height: 13px;
           width: 1px;
           background: #cccccc;
           position: absolute;
@@ -241,7 +241,7 @@ BLOCK HEADER
         padding: 5px 10px;
         border-radius: 3px;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 600;
         transition: none;
         color: #444444; }
         .header-bottom .header-bottom-right .megamenu-wrapper .megamenu li .menu1 strong {

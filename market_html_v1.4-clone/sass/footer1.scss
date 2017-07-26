@@ -43,7 +43,8 @@ $dir: ltr;
 		padding-bottom: 21px;
 		h3{
 			color: #fff;
-			font-weight: 500;
+			font-weight: 600;
+			font-size: 18px;
 			position: relative;
 			padding: 0 0 18px;
 			margin: 0 0 20px;
@@ -212,8 +213,9 @@ $dir: ltr;
 		a{
 			float: $right;
 			img{
-				border-radius: 6px;
+				border-radius: 3px;
 				margin-#{$right}: 10px;
+				border: 1px solid #fff;
 			}
 			
 		}
@@ -239,7 +241,6 @@ $dir: ltr;
 		p{
 			margin-bottom: 0;
 			margin-top: 5px;
-			font-size: 93%;
 			a{
 				color: $linkColor;
 			}
@@ -297,14 +298,14 @@ $dir: ltr;
 		padding: 0;
 	}
 	.footer-container .footer-mid .help .footer-mid-right .btn-sub i{
-        display: none;
-    }
-    .footer-container .footer-top {
-        .collapsed-block, .box-information, .box-extras, .box-account{
-            width: 100%
-        }
-    }
-    .footer-bottom-block .pay ul li{
+		display: none;
+	}
+	.footer-container .footer-top {
+		.collapsed-block, .box-information, .box-extras, .box-account{
+			width: 100%
+		}
+	}
+	.footer-bottom-block .pay ul li{
 		padding: 7px;
 	}
 	.footer-container .footer-mid .help .footer-mid-right  {

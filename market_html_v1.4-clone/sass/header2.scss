@@ -39,7 +39,7 @@ BLOCK HEADER
     position: relative;
     &:after{
         content: "";
-        height: 16px;
+        height: 13px;
         width: 1px;
         background: #cccccc;
         position: absolute;
@@ -285,7 +285,7 @@ BLOCK HEADER
                         padding: 5px 10px;
                         border-radius: 3px;
                         text-transform: uppercase;
-                        font-weight: 700;
+                        font-weight: 600;
                         transition: none;
                         color: #444444;
                         strong{

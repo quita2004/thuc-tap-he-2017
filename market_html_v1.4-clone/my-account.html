@@ -60,7 +60,7 @@
 			<div class="header-top">
 				<div class="container">
 					<div class="row">
-						<div class="header-top-left form-inline col-sm-6 col-xs-12 compact-hidden">
+						<div class="header-top-left form-inline col-sm-6 col-xs-6 compact-hidden">
 							<div class="form-group currencies-block">
 								<form action="index.html" method="post" enctype="multipart/form-data" id="currency">
 									<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
@@ -76,24 +76,23 @@
 							<div class="form-group languages-block ">
 								<form action="index.html" method="post" enctype="multipart/form-data" id="bt-language">
 									<a class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
-										<img src="image/demo/flags/gb.png" alt="English" title="English">
-										<span class="">English</span>
+										<img src="img/demo/flags/gb.png" alt="English" title="English">
+										<span class="hidden-xs">English</span>
 										<span class="fa fa-angle-down"></span>
 									</a>
-									<ul class="dropdown-menu" style="display: none;">
-										<li><a href="index.html"><img class="image_flag" src="image/demo/flags/gb.png" alt="English" title="English"> English </a></li>
-										<li> <a href="index.html"> <img class="image_flag" src="image/demo/flags/lb.png" alt="Arabic" title="Arabic"> Arabic </a> </li>
+									<ul class="dropdown-menu" >
+										<li><a href="index.html"><img class="image_flag" src="img/demo/flags/gb.png" alt="English" title="English"> English </a></li>
+										<li> <a href="index.html"> <img class="image_flag" src="img/demo/flags/lb.png" alt="Arabic" title="Arabic"> Arabic </a> </li>
 									</ul>
 								</form>
 							</div>
 						</div>
-						<div class="header-top-right collapsed-block text-right  col-sm-6 col-xs-12 compact-hidden">
-							<h5 class="tabBlockTitle visible-xs">More<a class="expander " href="#TabBlock-1"><i class="fa fa-angle-down"></i></a></h5>
-							<div class="tabBlock" id="TabBlock-1">
+						<div class="header-top-right collapsed-block text-right  col-sm-6 col-xs-6 compact-hidden">
+							<div class="tabBlock1" id="TabBlock-1">
 								<ul class="top-link list-inline">
-									<li class="wishlist"><a href="wishlist.html" id="wishlist-total" class="top-link-wishlist" title="Welcome Customer!"><span>Welcome Customer!</span></a></li>
-									<li class="checkout"><a href="checkout.html" class="top-link-checkout" title="Sign In"><span>Sign In</span></a></li>
-									<li class="login"><a href="cart.html" title="Creat Account"><span>Creat Account</span></a></li>
+									<li class="wishlist hidden-xs"><a href="" id="wishlist-total" class="top-link-wishlist" title="Welcome Customer!"><span>Welcome Customer!</span></a></li>
+									<li class="signin"><a href="login.html" class="top-link-checkout" title="Sign In"><span>Sign In</span></a></li>
+									<li class="register"><a href="register.html" title="Register"><span>Register</span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -107,13 +106,13 @@
 				<div class="container">
 					<div class="row">
 						<!-- Logo -->
-						<div class="navbar-logo col-md-2 col-sm-12 col-xs-12">
+						<div class="navbar-logo col-md-3 col-sm-12 col-xs-12">
 							<a href="index.html"><img src="img/demo/logo/logo.jpg" title="Your Store" alt="Your Store"></a>
 						</div>
 						<!-- //end Logo -->
 
 						<!-- Search -->
-						<div id="sosearchpro" class="col-sm-5 search-pro">
+						<div id="sosearchpro" class="col-xs-12 col-sm-8 col-md-5 search-pro">
 							<form method="GET" action="index.html">
 								<div id="search0" class="search input-group">
 
@@ -152,7 +151,7 @@
 											<tbody>
 												<tr>
 													<td class="text-center" style="width:70px">
-														<a href="product.html"> <img src="image/demo/shop/product/35.jpg" style="width:70px" alt="Filet Mign" title="Filet Mign" class="preview"> </a>
+														<a href="product.html"> <img src="img/demo/shop/product/35.jpg" style="width:70px" alt="Filet Mign" title="Filet Mign" class="preview"> </a>
 													</td>
 													<td class="text-left"> <a class="cart_product_name" href="product.html">Filet Mign</a> </td>
 													<td class="text-center"> x1 </td>
@@ -166,7 +165,7 @@
 												</tr>
 												<tr>
 													<td class="text-center" style="width:70px">
-														<a href="product.html"> <img src="image/demo/shop/product/141.jpg" style="width:70px" alt="Canon EOS 5D" title="Canon EOS 5D" class="preview"> </a>
+														<a href="product.html"> <img src="img/demo/shop/product/141.jpg" style="width:70px" alt="Canon EOS 5D" title="Canon EOS 5D" class="preview"> </a>
 													</td>
 													<td class="text-left"> <a class="cart_product_name" href="product.html">Canon EOS 5D</a> </td>
 													<td class="text-center"> x1 </td>
@@ -227,18 +226,17 @@
 
 
 						<!-- Main menu -->
-						<div class="megamenu-hori header-bottom-right  col-md-9 col-sm-6 col-xs-12 ">
+						<div class="megamenu-hori header-bottom-right  col-md-12 col-sm-12 col-xs-12 ">
 							<div class="responsive so-megamenu ">
 								<nav class="navbar-default">
 									<div class=" container-megamenu  horizontal">
 
 										<div class="navbar-header">
-											<button type="button" id="show-megamenu" data-toggle="collapse" class="navbar-toggle">
+											<button   id="show-megamenu" data-toggle="collapse" class="navbar-toggle">
 												<span class="icon-bar"></span>
 												<span class="icon-bar"></span>
 												<span class="icon-bar"></span>
 											</button>
-											Navigation		
 										</div>
 
 										<div class="megamenu-wrapper">
@@ -248,14 +246,14 @@
 													<ul class="megamenu " data-transition="slide" data-animationtime="250">
 														<li class="home hover">
 
-															<a href="index.html" class="menu1">Home <b class="caret"></b></a>
-															<div class="sub-menu" style="width: 100%; display: none; right: auto;">
-																<div class="content" style="display: none; height: 297px;">
+															<a href="index.html" class="menu1">Home  </a>
+															<div class="sub-menu" style="width: 100%; display: none;">
+																<div class="content" style="display: none;">
 																	<div class="row">
 																		<div class="col-md-3">
 																			<a href="index.html" class="image-link"> 
 																				<span class="thumbnail">
-																					<img class="img-responsive img-border" src="image/demo/feature/home-1.jpg" alt="">
+																					<img class="img-responsive img-border" src="img/demo/feature/home-1.jpg" alt="">
 																					<span class="btn btn-default">Read More</span>
 																				</span> 
 																				<h3 class="figcaption">Home page - (Default)</h3> 
@@ -265,7 +263,7 @@
 																		<div class="col-md-3">
 																			<a href="home2.html" class="image-link"> 
 																				<span class="thumbnail">
-																					<img class="img-responsive img-border" src="image/demo/feature/home-2.jpg" alt="">
+																					<img class="img-responsive img-border" src="img/demo/feature/home-2.jpg" alt="">
 																					<span class="btn btn-default">Read More</span>
 																				</span> 
 																				<h3 class="figcaption">Home page - Layout 2</h3> 
@@ -275,7 +273,7 @@
 																		<div class="col-md-3">
 																			<a href="home3.html" class="image-link"> 
 																				<span class="thumbnail">
-																					<img class="img-responsive img-border" src="image/demo/feature/home-3.jpg" alt="">
+																					<img class="img-responsive img-border" src="img/demo/feature/home-3.jpg" alt="">
 																					<span class="btn btn-default">Read More</span>
 																				</span> 
 																				<h3 class="figcaption">Home page - Layout 3</h3> 
@@ -285,7 +283,7 @@
 																		<div class="col-md-3">
 																			<a href="home4.html" class="image-link"> 
 																				<span class="thumbnail">
-																					<img class="img-responsive img-border" src="image/demo/feature/home-4.jpg" alt="">
+																					<img class="img-responsive img-border" src="img/demo/feature/home-4.jpg" alt="">
 																					<span class="btn btn-default">Read More</span>
 																				</span> 
 																				<h3 class="figcaption">Home page - Layout 4</h3> 
@@ -300,11 +298,10 @@
 															<p class="close-menu"></p>
 															<a href="#" class="clearfix menu1">
 																<strong>Features</strong>
-																<span class="label"> Hot</span>
-																<b class="caret"></b>
+																
 															</a>
 															<div class="sub-menu" style="width: 100%; right: 0px; display: none;">
-																<div class="content" style="display: none; height: 288px;">
+																<div class="content" style="height: 288px; display: none;">
 																	<div class="row">
 																		<div class="col-md-3">
 																			<div class="column">
@@ -369,11 +366,10 @@
 															<p class="close-menu"></p>
 															<a href="#" class="clearfix menu1">
 																<strong>Pages</strong>
-																<span class="label"> Hot</span>
-																<b class="caret"></b>
+																
 															</a>
-															<div class="sub-menu" style="width: 40%; display: none; right: auto;">
-																<div class="content" style="display: none; height: 160px;">
+															<div class="sub-menu" style="width: 40%; right: auto; display: none;">
+																<div class="content" style="height: 160px; display: none;">
 																	<div class="row">
 																		<div class="col-md-6">
 																			<ul class="row-list">
@@ -401,7 +397,7 @@
 															<a href="#" class="clearfix menu1">
 																<strong>Categories</strong>
 																<span class="label"></span>
-																<b class="caret"></b>
+
 															</a>
 															<div class="sub-menu" style="width: 100%; right: 0px; display: none;">
 																<div class="content" style="height: 398px; display: none;">
@@ -409,16 +405,16 @@
 																		<div class="col-sm-12">
 																			<div class="row">
 																				<div class="col-md-3 img img1">
-																					<a href="#"><img src="image/demo/cms/img1.jpg" alt="banner1"></a>
+																					<a href="#"><img src="img/demo/cms/img1.jpg" alt="banner1"></a>
 																				</div>
 																				<div class="col-md-3 img img2">
-																					<a href="#"><img src="image/demo/cms/img2.jpg" alt="banner2"></a>
+																					<a href="#"><img src="img/demo/cms/img2.jpg" alt="banner2"></a>
 																				</div>
 																				<div class="col-md-3 img img3">
-																					<a href="#"><img src="image/demo/cms/img3.jpg" alt="banner3"></a>
+																					<a href="#"><img src="img/demo/cms/img3.jpg" alt="banner3"></a>
 																				</div>
 																				<div class="col-md-3 img img4">
-																					<a href="#"><img src="image/demo/cms/img4.jpg" alt="banner4"></a>
+																					<a href="#"><img src="img/demo/cms/img4.jpg" alt="banner4"></a>
 																				</div>
 																			</div>
 																		</div>
@@ -493,7 +489,7 @@
 															<a href="#" class="clearfix menu1">
 																<strong>Accessories</strong>
 
-																<b class="caret"></b>
+
 															</a>
 															<div class="sub-menu" style="width: 100%; display: none;">
 																<div class="content" style="display: none;">
@@ -551,7 +547,7 @@
 																			<div class="col-sm-12 list-product">
 																				<div class="product-thumb">
 																					<div class="image pull-left">
-																						<a href="#"><img src="image/demo/shop/product/35.jpg" width="80" alt="Filet Mign" title="Filet Mign" class="img-responsive"></a>
+																						<a href="#"><img src="img/demo/shop/product/35.jpg" width="80" alt="Filet Mign" title="Filet Mign" class="img-responsive"></a>
 																					</div>
 																					<div class="caption">
 																						<h4><a href="#">Filet Mign</a></h4>
@@ -569,7 +565,7 @@
 																			<div class="col-sm-12 list-product">
 																				<div class="product-thumb">
 																					<div class="image pull-left">
-																						<a href="#"><img src="image/demo/shop/product/W1.jpg" width="80" alt="Dail Lulpa" title="Dail Lulpa" class="img-responsive"></a>
+																						<a href="#"><img src="img/demo/shop/product/W1.jpg" width="80" alt="Dail Lulpa" title="Dail Lulpa" class="img-responsive"></a>
 																					</div>
 																					<div class="caption">
 																						<h4><a href="#">Dail Lulpa</a></h4>
@@ -587,7 +583,7 @@
 																			<div class="col-sm-12 list-product">
 																				<div class="product-thumb">
 																					<div class="image pull-left">
-																						<a href="#"><img src="image/demo/shop/product/141.jpg" width="80" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive"></a>
+																						<a href="#"><img src="img/demo/shop/product/141.jpg" width="80" alt="Canon EOS 5D" title="Canon EOS 5D" class="img-responsive"></a>
 																					</div>
 																					<div class="caption">
 																						<h4><a href="#">Canon EOS 5D</a></h4>
@@ -621,13 +617,7 @@
 															</a>
 														</li>
 
-														<li class="hidden-md">
-															<p class="close-menu"></p>
-															<a href="#" class="clearfix menu1">
-																<strong>Buy Theme!</strong>
-
-															</a>
-														</li>
+														
 													</ul>
 
 												</div>

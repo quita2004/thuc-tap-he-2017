@@ -64,7 +64,8 @@
     padding-bottom: 21px; }
     .footer-container .footer-top h3 {
       color: #fff;
-      font-weight: 500;
+      font-weight: 600;
+      font-size: 18px;
       position: relative;
       padding: 0 0 18px;
       margin: 0 0 20px;
@@ -192,8 +193,9 @@
     .footer-bottom-block .download a {
       float: right; }
       .footer-bottom-block .download a img {
-        border-radius: 6px;
-        margin-right: 10px; }
+        border-radius: 3px;
+        margin-right: 10px;
+        border: 1px solid #fff; }
   .footer-bottom-block .pay ul {
     float: right; }
     .footer-bottom-block .pay ul li {
@@ -208,8 +210,7 @@
     padding: 0 15px; }
     .footer-bottom-block .text-footer-bot p {
       margin-bottom: 0;
-      margin-top: 5px;
-      font-size: 93%; }
+      margin-top: 5px; }
       .footer-bottom-block .text-footer-bot p a {
         color: #0083c1; }
 

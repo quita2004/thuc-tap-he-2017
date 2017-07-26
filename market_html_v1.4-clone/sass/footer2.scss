@@ -44,6 +44,7 @@ $dir: ltr;
 		h3{
 			color: #fff;
 			font-weight: 500;
+			font-size: 18px;
 			position: relative;
 			padding: 0 0 18px;
 			margin: 0 0 20px;
@@ -145,7 +146,7 @@ $dir: ltr;
 	}
 	.footer-mid{
 		background: #181818;
-		padding: 25px 0;
+		padding: 30px 0 15px 0;
 		.footer-mid-left{
 			float: $left;
 			h3{
@@ -211,8 +212,9 @@ $dir: ltr;
 		a{
 			float: $right;
 			img{
-				border-radius: 6px;
+				border-radius: 3px;
 				margin-#{$right}: 10px;
+				border: 1px solid #fff;
 			}
 			
 		}
@@ -236,8 +238,8 @@ $dir: ltr;
 		float: $right;
 		padding: 0 15px;
 		p{
-			margin-top: 5px;
-			font-size: 93%;
+			margin-top: 10px;
+			margin-bottom: 0;
 			a{
 				color: $linkColor;
 			}

@@ -98,7 +98,9 @@
       width: 32%;
       float: left; }
       .footer-container .footer-mid .newsletter .news-letter h3 span {
-        font-size: 14px; }
+        font-size: 14px;
+        font-weight: 400;
+        color: #777777; }
     .footer-container .footer-mid .newsletter .news-letter .email {
       margin-top: 10px; }
       .footer-container .footer-mid .newsletter .news-letter .email input {

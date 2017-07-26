@@ -15,7 +15,10 @@ hr{
 				font-size: 2em;
 			}
 			.owl-next{
-				right: 0;
+				#{$right}: 15px;
+			}
+			.owl-prev{
+				#{$left}: 15px;
 			}
 		}
 		.owl-dots{

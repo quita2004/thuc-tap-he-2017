@@ -2771,7 +2771,7 @@ BLOG DETAIL
 body {
   color: #555555;
   font-size: 12px;
-  line-height: 22px;
+  line-height: 18px;
   font-family: 'Poppins', sans-serif; }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -4604,7 +4604,7 @@ ul.yt-accordion li.accordion-group h3.accordion-heading:hover .fa {
         content: "\f104";
         font-family: FontAwesome; }
       .related-product .related-product-owl .owl-nav .owl-next {
-        margin-left: 10px; }
+        margin-left: 5px; }
         .related-product .related-product-owl .owl-nav .owl-next:after {
           content: "\f105";
           font-family: FontAwesome; }
@@ -4719,9 +4719,9 @@ ul.yt-accordion li.accordion-group h3.accordion-heading:hover .fa {
   .type_footer1 a:hover {
     color: #f55; }
 .type_footer1 .footer-top ul.menu li > a {
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   .type_footer1 .footer-top ul.menu li > a:hover {
     margin-left: 5px; }
 .type_footer1 .collapsed-block.footer-links .footer-directory-title {

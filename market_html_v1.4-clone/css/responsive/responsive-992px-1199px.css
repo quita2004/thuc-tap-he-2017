@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'breakpoint'.
-        on line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss, in `breakpoint'
-        from line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss
+        on line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss, in `breakpoint'
+        from line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss
 
 1: @include breakpoint(md){
 2:    .container-full{margin: 0; clear: both;}
@@ -11,8 +11,8 @@ Error: Undefined mixin 'breakpoint'.
 6: 		#yt_header_right .three-block .htmlcontent-home img{width:100%;height: 140px;}
 
 Backtrace:
-C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss:1:in `breakpoint'
-C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss:1
+C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss:1:in `breakpoint'
+C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss:1
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
@@ -50,4 +50,4 @@ C:/Ruby23/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'breakpoint'.\A         on line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss, in `breakpoint'\A         from line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss\A \A 1: @include breakpoint(md){\A 2:    .container-full{margin: 0; clear: both;}\A 3: /*==============HOME 1 =====================*/\A 4:     .layout-home1{\A 5: 		#yt_header_right .three-block .htmlcontent-home{margin: 0;}\A 6: 		#yt_header_right .three-block .htmlcontent-home img{width:100%;height: 140px;}"; }
+  content: "Error: Undefined mixin 'breakpoint'.\A         on line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss, in `breakpoint'\A         from line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-992px-1199px.scss\A \A 1: @include breakpoint(md){\A 2:    .container-full{margin: 0; clear: both;}\A 3: /*==============HOME 1 =====================*/\A 4:     .layout-home1{\A 5: 		#yt_header_right .three-block .htmlcontent-home{margin: 0;}\A 6: 		#yt_header_right .three-block .htmlcontent-home img{width:100%;height: 140px;}"; }

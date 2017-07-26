@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$dir".
-        on line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\variables\rtl.scss
+        on line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\variables\rtl.scss
 
 1: @if $dir == rtl {
 2: 	$left: right;
@@ -10,7 +10,7 @@ Error: Undefined variable: "$dir".
 6: 	$right: right;
 
 Backtrace:
-C:\xampp\htdocs\html\market_html_v1.4-clone\sass\variables\rtl.scss:1
+C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\variables\rtl.scss:1
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/script/tree/operation.rb:64:in `_perform'
@@ -48,4 +48,4 @@ C:/Ruby23/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$dir\".\A         on line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\variables\rtl.scss\A \A 1: @if $dir == rtl {\A 2: 	$left: right;\A 3: 	$right: left;\A 4: } @else{\A 5: 	$left: left;\A 6: 	$right: right;"; }
+  content: "Error: Undefined variable: \"$dir\".\A         on line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\variables\rtl.scss\A \A 1: @if $dir == rtl {\A 2: 	$left: right;\A 3: 	$right: left;\A 4: } @else{\A 5: 	$left: left;\A 6: 	$right: right;"; }

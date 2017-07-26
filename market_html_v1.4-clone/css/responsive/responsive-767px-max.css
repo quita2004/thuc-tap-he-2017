@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'breakpoint'.
-        on line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss, in `breakpoint'
-        from line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss
+        on line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss, in `breakpoint'
+        from line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss
 
 1: @include breakpoint(xs){
 2: 	
@@ -11,8 +11,8 @@ Error: Undefined mixin 'breakpoint'.
 6: 	}
 
 Backtrace:
-C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss:1:in `breakpoint'
-C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss:1
+C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss:1:in `breakpoint'
+C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss:1
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
@@ -50,4 +50,4 @@ C:/Ruby23/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'breakpoint'.\A         on line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss, in `breakpoint'\A         from line 1 of C:\xampp\htdocs\html\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss\A \A 1: @include breakpoint(xs){\A 2: 	\A 3: 	//--------------- Header Wrapper ------------\A 4: 	.container-full{margin: 0; clear: both;\A 5: 		> .container{width:auto}	\A 6: 	}"; }
+  content: "Error: Undefined mixin 'breakpoint'.\A         on line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss, in `breakpoint'\A         from line 1 of C:\xampp\htdocs\html\tt\market_html_v1.4-clone\sass\responsive\responsive-767px-max.scss\A \A 1: @include breakpoint(xs){\A 2: 	\A 3: 	//--------------- Header Wrapper ------------\A 4: 	.container-full{margin: 0; clear: both;\A 5: 		> .container{width:auto}	\A 6: 	}"; }
